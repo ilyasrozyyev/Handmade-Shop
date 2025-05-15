@@ -261,6 +261,7 @@ class _HomeScreenState extends State<HomeScreen> {
         children: _widgetOptions,
       ),
       bottomNavigationBar: BottomNavigationBar(
+        type: BottomNavigationBarType.fixed,
         backgroundColor: ab,
         items:  <BottomNavigationBarItem>[
           BottomNavigationBarItem(

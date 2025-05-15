@@ -48,7 +48,7 @@ class ProfileScreen extends StatelessWidget {
                     ),
                     SizedBox(height: 4),
                     Text(
-                      "stathem_jason@mail.com",
+                      "stathem_jason@gmail.com",
                       style: TextStyle(color: te),
                     ),
                   ],
@@ -111,7 +111,7 @@ class _ProfileActionButton extends StatelessWidget {
       children: [
         CircleAvatar(
           radius: 22,
-          backgroundColor: const Color.fromARGB(255, 240, 240, 240),
+          backgroundColor: bk,
           child: Icon(icon, color: ab),
         ),
         const SizedBox(height: 6),
